@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     background: #120F13;
-    width: 25%;
+    width: 20%;
     height: 100vh;
 }
 .header-left{
@@ -47,14 +47,49 @@ body{
 
 .input{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 265.42px;
     height: 48px;
     background: #3C393F;
     border-radius: 8px;
     margin-top: 20px;
+    margin-left: 33px;
+}
+
+.input input{
+    border: none;
+    background: transparent;
+    outline: 0;
+    width: 200px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    text-transform: capitalize;
+    color: #828282;
+}
+.input i{
+    color: #FFFFFF;
+}
+.channels{
+    margin-top: 43px;
+}
+.channels button{
+    cursor: pointer;
+    margin-bottom: 38px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #BDBDBD;
 }
 .profile{
+    display: flex;
     background: #0B090C;
 }
