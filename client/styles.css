@@ -101,7 +101,7 @@ body{
 
 .profile img{
     width: 42px;
-    height: 48px;
+    height: 42px;
     border-radius: 7px;
 }
 
@@ -134,4 +134,38 @@ body{
     color: #E0E0E0;
     padding-top: 20px;
     padding-left: 70px;
+}
+
+.input-message{
+    display: inline-block;
+    height: 52px;
+    width: 50vw;
+    background: #3C393F;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 630px;
+}
+.input-message input{
+    border: none;
+    outline: none;
+    width: 93%;
+    height: 52px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    color: #828282;
+    padding-left: 17px;
+}
+.input-message button{
+    border: none;
+    width: 39px;
+    height: 39px;
+    background: #2F80ED;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.input-message i{
+    color: #FFFFFF;
 }
