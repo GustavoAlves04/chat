@@ -27,10 +27,10 @@
             <input type="text" placeholder="Search">
         </div>
         <div class="channels">
-            <button id="btn">Front-End Developers</button>
-            <button id="btn">Back-End Developers</button>
-            <button id="btn">Random</button>
-            <button id="btn">Welcome</button>
+            <button id="btn" onClick="changeTitle()">Front-End Developers</button>
+            <button id="btn" onClick="changeTitle2()">Back-End Developers</button>
+            <button id="btn" onClick="changeTitle3()">Random</button>
+            <button id="btn" onClick="changeTitle4()">Welcome</button>
         </div>
         <div class="profile">
             <img src="./img/profile.jpg" alt="profile">
@@ -41,7 +41,7 @@
     <div class="right-side">
         <div class="main">
             <header class="header-right">
-                <h2>FRONT-END DEVELOPERS</h2>
+                <h2 id="title">FRONT-END DEVELOPERS</h2>
             </header>
             <div class="input-message">
                 <input type="text" placeholder="Type a message here">
@@ -50,6 +50,16 @@
         </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
