@@ -28,7 +28,6 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.035em;
     color: #E0E0E0;
     margin-left: 32px;
 }
@@ -66,7 +65,6 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    letter-spacing: -0.035em;
     text-transform: capitalize;
     color: #828282;
 }
@@ -80,17 +78,17 @@ body{
     cursor: pointer;
     margin-bottom: 38px;
     width: 300px;
+    height: 50px;
     background: transparent;
     border: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.035em;
     text-transform: uppercase;
     color: #BDBDBD;
 }
 .profile{
-    margin-top: 310px;
+    margin-top: 212px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -109,7 +107,6 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.035em;
     color: #828282
 }
 .profile i{
@@ -118,7 +115,7 @@ body{
 }
 
 .right-side{
-    width: 80%;
+    width: 100%;
     background: #252329;
 }
 .header-right{
@@ -129,7 +126,6 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.035em;
     text-transform: uppercase;
     color: #E0E0E0;
     padding-top: 20px;
@@ -137,9 +133,11 @@ body{
 }
 
 .input-message{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 52px;
-    width: 50vw;
+    width: 70vw;
     background: #3C393F;
     border-radius: 8px;
     margin-left: 70px;
@@ -148,13 +146,12 @@ body{
 .input-message input{
     border: none;
     outline: none;
-    width: 93%;
+    width: 100%;
     height: 52px;
     background: transparent;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    letter-spacing: -0.035em;
     color: #828282;
     padding-left: 17px;
 }
@@ -162,10 +159,25 @@ body{
     border: none;
     width: 39px;
     height: 39px;
-    background: #2F80ED;
+    background: #252525;
     border-radius: 8px;
     cursor: pointer;
+    margin-right: 5px;
+    transition: 0.2s ease;
 }
+.input-message button:hover{
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+.input-message button:active{
+    opacity: 0.5;
+}
+#btn:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background: #1f1e22;
+  }
 .input-message i{
     color: #FFFFFF;
 }
