@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
     <link rel="stylesheet" href="login.css">
     <title>Login | Chat Developers</title>
 </head>
 <body>
     <form class="login">
-        <h2>Faça login para entrar no nosso grupo</h2>
+        <h2>Digite seu nome para entrar no nosso grupo</h2>
         <div class="box-user">
-            <input type="text" name="" required>
+            <input type="text" id="nome" required>
             <label>Digite seu nome</label>
-        </div>
-        <div class="box-user">
-            <input type="password" name="" required>
-            <label>Senha</label>
         </div>
         <button onclick="btnEntrar()" type="button" id="btnEntrar"><a href="#" class="btn">
             <span></span>
@@ -26,6 +23,6 @@
             Entrar
         </a></button>
     </form>
-    <script src="script.js"></script>
+    
 </body>
 </html>
