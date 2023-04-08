@@ -62,6 +62,10 @@ body{
     color: #5b6b8b;
     float: right;
 }
+button{
+    border: none;
+    background: transparent;
+}
 .btn{
     position: relative;
     display: inline-block;
