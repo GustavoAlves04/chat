@@ -2,7 +2,7 @@ const setLocalStorage = (usuario) => localStorage.setItem("usuario", JSON.string
 
 function btnEntrar(){
     const inputNome = document.getElementById("nome").value
-    const idUsuario = (Math.random() * 10).toString()
+    const idUsuario = (Math.random() * 20).toString()
 
     setLocalStorage({
         nome: inputNome,
