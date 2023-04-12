@@ -43,8 +43,12 @@
             <header class="header-right">
                 <h2 id="title">FRONT-END DEVELOPERS</h2>
             </header>
+            <div class="chat-history">
+                <ul class="m-b-0" id="quadro-mensagens">
+                </ul>
+            </div>
             <div class="input-message">
-                <input type="text" placeholder="Type a message here">
+                <input type="text" placeholder="Type a message here" id="enviarMensagem">
                 <button><i class="fa-solid fa-paper-plane"></i></button>
             </div>
         </div>
@@ -58,7 +62,8 @@
 
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js" integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="./script.js"></script>
 </body>
 
